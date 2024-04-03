@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil y datos personales</title>
+</head>
+<body>
+    <h1>INGRESO DE DATOS PERSONALES</h1>
+    <h2>Complete el siguiente formulario con sus datos personales</h2>
+    <br>
+    <fieldset>
+    <form action="#" method="post">
+        <label for="Condición">Condición</label>
+        <input name="Condición" id="Condición" value="Estudiante"></select>
+        <br>
+        <label for="NombreCompleto">Nombre Completo</label>
+        <input type="text" id="nombreCompleto" name="nombreCompleto" required placeholder="Ingrese nombre y apellido" readonly style="width: 300px;">
+        <br>
+        <label for="Mail">Mail</label>
+        <input type="text" id="Mail" name="Mail" required placeholder="Ingrese su email" readonly style="width: 300px;">
+        <br>
+        <label for="Edad">Edad</label>
+        <input type="text" id="Edad" name="Edad" required placeholder="Ingrese su edad">
+        <br>
+        <label for="Nacionalidad">Nacionalidad</label>
+        <select name="Nacionalidad" id="Nacionalidad">
+            <option value="Argentina" selected>Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Chile">Chile</option>
+        </select>
+        <br>
+        <label for="Condición">Condición Laboral</label>
+        <select name="Condicion" id="Condicion">
+            <option value="Desempleado">Desempleado</option>
+            <option value="Búsqueda Laboral" selected>Búsqueda Laboral</option>
+            <option value="Trabajo_part_time">Trabajo Part Time</option>
+            <option value="Trabajo_full_time">Trabajo Full time</option>
+        </select>
+    </form>
+    </fieldset>
+    <h2>Gustos Personales</h2>
+    <fieldset>
+        <label for="GustosMusicales">Gustos Musicales</label>
+        <input type="text" id="GustosMusicales" name="GustosMusicales" required placeholder="Ingrese sus gustos musicales" readonly style="width: 600px;">
+        <br>
+        <label for="Comidas_Preferidas">Comidas Preferidas</label>
+        <select name="Comidas_Preferidas" id="Comidas_Preferidas">
+            <option value="Asado" selected>Asado</option>
+            <option value="Pastas">Pastas</option>
+            <option value="Pescado">Pescado</option>
+            <option value="Vegetariano">Vegetariano</option>
+        </select>
+    </fieldset>
+    <br>
+    <label for="remember">Recordar datos:</label>
+    <input type="checkbox" id="remember" name="remember" checked>
+    <br>
+    <input type="submit" value="Enviar">
+    
+</body>
+</html>

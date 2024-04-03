@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 2</title>
+    <style>
+        table,
+        td,
+        th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        }
+        table {
+        width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption><mark>TABLA BÁSICA</mark></caption>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Localidad</th>
+        </tr>
+        <tr>
+            <td>Francisco Poli Veliz</td>
+            <td>31</td>
+            <td>María Teresa</td>
+        </tr>
+        <tr>
+            <td>Lionel Messi</td>
+            <td>36</td>
+            <td>Rosario</td>
+        </tr>
+        <tr>
+            <td>Juan Fernando Quintero</td>
+            <td>31</td>
+            <td>Medellín</td>
+        </tr>
+        <tr>
+            <td>Ignacio Scocco</td>
+            <td>38</td>
+            <td>Hughes</td>
+        </tr>
+        <tfoot>
+            <td colspan="3">Pie de tabla</td>
+        </tfoot>
+    </table>
+    <br>
+    <table border="1">
+        <caption><mark>TABLA COMPLEJA</mark></caption>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Club</th>
+        </tr>
+        
+        <tr>
+            <td>Lionel Messi</td>
+            <td>36</td>
+            <td>Barcelona</td>
+        </tr>
+        <tr>
+            <td>Francisco Poli Veliz</td>
+            <td rowspan="2">31</td>
+            <td>Nueva Era</td>
+        </tr>
+        <tr>
+            <td>Juan Fernando Quintero</td>
+            <td rowspan="2">River Plate</td>
+        </tr>
+        <tr>
+            <td>Ignacio Scocco</td>
+            <td>38</td>
+        </tr>
+        <tfoot>
+            <td colspan="3">Pie de tabla</td>
+        </tfoot>
+    </table>
+</body>
+</html>
