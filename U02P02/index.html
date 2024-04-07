@@ -14,11 +14,12 @@
         }
         table {
         width: 100%;
+        border: solid;
         }
     </style>
 </head>
 <body>
-    <table border="1">
+    <table >
         <caption><mark>TABLA BÁSICA</mark></caption>
         <tr>
             <th>Nombre</th>
@@ -49,35 +50,43 @@
             <td colspan="3">Pie de tabla</td>
         </tfoot>
     </table>
-    <br>
-    <table border="1">
+    <br><br><hr><br><br>
+    
+    <table >
         <caption><mark>TABLA COMPLEJA</mark></caption>
         <tr>
             <th>Nombre</th>
             <th>Edad</th>
             <th>Club</th>
+            <th>Link biografía</th>
         </tr>
         
         <tr>
             <td>Lionel Messi</td>
             <td>36</td>
             <td>Barcelona</td>
+            <td><a href="https://es.wikipedia.org/wiki/Lionel_Messi" target="_blank">Biografía Wikipedia</a></td>
         </tr>
         <tr>
-            <td>Francisco Poli Veliz</td>
-            <td rowspan="2">31</td>
-            <td>Nueva Era</td>
+            <td>Claudio Echeverri</td>
+            <td >18</td>
+            <td rowspan="3">River Plate</td>
+            <td><a href="https://es.wikipedia.org/wiki/Claudio_Echeverri" target="_blank">Biografía Wikipedia</a></td>
         </tr>
         <tr>
             <td>Juan Fernando Quintero</td>
-            <td rowspan="2">River Plate</td>
+            
+            <td>31</td>
+            <td><a href="https://es.wikipedia.org/wiki/Juan_Fernando_Quintero" target="_blank">Biografía Wikipedia</a></td>
         </tr>
         <tr>
             <td>Ignacio Scocco</td>
             <td>38</td>
+            <td><a href="https://es.wikipedia.org/wiki/Ignacio_Scocco" target="_blank">Biografía Wikipedia</a></td>
         </tr>
+        
         <tfoot>
-            <td colspan="3">Pie de tabla</td>
+            <td colspan="4">Pie de tabla</td>
         </tfoot>
     </table>
 </body>
