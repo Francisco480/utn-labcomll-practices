@@ -1,5 +1,3 @@
-Práctica Laboratorio II 2024
-
 # UNIDAD 2  (HTML)
   * Práctica 1 Terminada
   * Práctica 2 Terminada
@@ -8,6 +6,6 @@ Práctica Laboratorio II 2024
 
 ----------------------------------------------------
 
-#UNIDAD 3  (CSS)
-  *Práctica 1 Terminada y Validada
+# UNIDAD 3  (CSS)
+  * Práctica 1 Terminada y Validada
 
