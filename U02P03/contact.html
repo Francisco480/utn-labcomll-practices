@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Nueva Era Sporting Club</h1>
+        <p>Bienvenidos a la página oficial de N.E.S.C</p>
+    </header>
+    <div class="container">
+        <!-- Navegación / cotenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal -->
+        <main>
+            <h2><ins>Formulario para convertirse en Socio</ins></h2>
+            <fieldset>
+                <form>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="nombre"> <b>Nombre: </b></label>
+                            </td>
+                            <td>
+                                <input name="nombre" id="nombre" type="text" maxlength="30" minlength="4" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email"><b>Email: </b></label>
+                            </td>
+                            <td>
+                                <input name="email" id="email" type="email" maxlength="50" minlength="10" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="edad"><b>Edad: </b></label>
+                            </td>
+                            <td>
+                                <input name="edad" id=edad type="number">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="dni"><b>DNI: </b></label>
+                            </td>
+                            <td>
+                                <input name="dni" id=dni type="number">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="color"><b>Color favorito: </b></label>
+                            </td>
+                            <td>
+                                <input name="color" id="color" type="color">
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <label for="textarea"><b><ins>Nos interesa recibir su opinión:</ins></b></label>
+                    <br><br>
+                    <textarea name="textarea" id="textarea" rows="10" cols="50"
+                        placeholder="Deje su comentario aqui"></textarea>
+                    <br>
+                    <br>
+                    <button>Enviar</button>
+                </form>
+            </fieldset>
+
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>Info</h2>
+            <p>Por consultar enviar mail a @nuevaeramariateresa@gmail.com o acercarse a la secretaría en la sede</p>
+        </div>
+    </div>
+    <footer>
+        <p>© copyright <strong>Francisco Poli Veliz</strong></p>
+        <p><ins>Sede: Urquiza y dorrego - Teléfono:3462571225</ins></p>
+    </footer>
+</body>
+
+</html>
