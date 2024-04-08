@@ -1,6 +1,6 @@
-# Práctica Laboratorio II
+# PRÁCTICA LABORATORIO II
 
-# UNIDAD 2  (HTML)
+# Unidad 2  (HTML)
   * Práctica 1 Terminada
   * Práctica 2 Terminada
   * Práctica 3 Terminada y Validada
@@ -8,6 +8,6 @@
 
 ----------------------------------------------------
 
-# UNIDAD 3  (CSS)
+# Unidad 3  (CSS)
   * Práctica 1 Terminada y Validada
 
