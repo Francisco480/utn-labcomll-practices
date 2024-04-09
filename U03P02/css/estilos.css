@@ -41,7 +41,7 @@ nav {
 .fa-cat{
     color: red;
     font-family: "Font Awesome 5 Free"; /* Fuente del ícono */
-    font-size: 25;
+    font-size: 25px;
 }
 
 .nav-links {
