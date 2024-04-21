@@ -1,0 +1,48 @@
+.contendorprincipal{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.tarjetamedio{
+    margin: 0;
+}
+
+.principal{
+    display: flex;
+    width: 200px;
+    height: 500px;
+    box-shadow: 0px 0px 7px 0px grey;
+    flex-direction: column;
+    border: 0;
+    font-family: sans-serif;
+    margin: 15px;
+    flex: 1;
+}   
+
+.titulo{
+    height: 40px;
+    background: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+}
+
+.cuerpo{
+    flex: 3;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.pie{
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background: grey;
+    color: white;
+    display: flex;
+    flex: 1;
+}

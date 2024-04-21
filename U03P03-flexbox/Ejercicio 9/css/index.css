@@ -1,0 +1,40 @@
+.body{
+    padding: 20px;
+    display: flex;
+    height: 100vh;
+}
+
+.principal{
+    display: flex;
+    height: 100vh;
+    font-size: 50px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.izquierda{
+    background-color: #0e7c74;
+    flex: 2;
+    display: flex;
+    padding: 12px;
+    color: white;
+}
+.derecha{
+    background-color: white;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    
+}
+.alta{
+    flex: 1 1 100%;
+    border: 1px solid lightgray;
+    padding: 24px;
+    text-align: center;
+}
+.baja{
+    flex: 1 1 100%;
+    border: 1px solid lightgray;
+    padding: 24px;
+    text-align: center;
+}

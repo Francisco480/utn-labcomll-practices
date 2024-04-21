@@ -1,0 +1,44 @@
+.principal{
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.titulo{
+    background-color:  #D08700;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+
+}
+.titulo p {
+    font-size: 24px; 
+
+}
+.columnas{
+    display: flex;
+    box-sizing: border-box;
+    height: 100%;
+    text-align: center;
+}
+
+.izquierda{
+    flex: 1;
+    background-color: #4D4F52;
+    padding: 24px;
+    color: white;
+}
+
+.central{
+    flex: 2;
+    background-color: white;
+    padding: 24px;
+}
+
+.derecha{
+    flex: 1;
+    background-color: #4D4F52;
+    padding: 24px;
+    color: white;
+}

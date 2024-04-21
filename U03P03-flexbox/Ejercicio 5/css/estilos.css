@@ -1,0 +1,18 @@
+.principal{
+    display: flex;
+    gap: 2px;
+    font-family: sans-serif;
+}
+
+.principal .sidebar{
+    background-color: blue;
+    padding: 12px 24px;
+    flex: 1;
+    height: 100vh;
+}
+.principal .contenido{
+    background-color: lightgreen;
+    padding: 12px 24px;
+    flex: 4;
+    height: 100vh;
+}
