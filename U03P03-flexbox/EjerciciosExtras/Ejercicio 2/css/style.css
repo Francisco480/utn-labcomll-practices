@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    padding: 30px;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+}
+
+nav a{
+    color:#555;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #555;
+    color: #ccc;
+}
